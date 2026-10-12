@@ -1,4 +1,4 @@
-# PulseGrid (tcp-server)
+# PulseGrid
 
 PulseGrid is a multithreaded C++17 TCP server with a custom binary protocol and a sharded in-memory key-value store. One edge-triggered epoll thread handles I/O, and a fixed worker pool pulls requests from lock-free bounded MPMC queues.
 
